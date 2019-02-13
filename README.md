@@ -3,7 +3,7 @@ this css framework is grid design.
 
 ## Usage
   ### cssファイルの読み込み
-    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/fox.css">
   ### 12分割になっているので、それに合わせて分割数を設定する（下記では4分割）
     <div class="container">
       <div class="row">
