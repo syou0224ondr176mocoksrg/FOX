@@ -1,0 +1,38 @@
+div.container{
+  margin: 0 auto;
+  width: 99%;
+  max-width: 1300px;
+}
+@media(max-width: 550px){
+  .columns{ 
+    margin-left: 0%;
+    width: 100%;
+  }
+  div.container{ display: block; }
+}
+@media(min-width: 1300px){
+  .container{ margin: 0 auto; }
+}
+
+@media(min-width: 550px){
+  .container .columns{ float:left; }
+  .one.columns{ width: 4.33333333333333%; }
+  .two.columns{ width: 12.66666666666666%; }
+  .three.columns, .quarter.columns{ width: 21%; }
+  .four.columns{ width: 29.33333333333333%; }
+  .five.columns{ width: 37.66666666666667%; }
+  .six.columns, .half.columns{ width: 47%; }
+  .seven.columns{ width: 54.33333333333333%; }
+  .eight.columns{ width: 62.66666666666667% }
+  .nine.columns{ width: 71%; }
+  .ten.columns{ width: 79.33333333333333%; }
+  .eleven.columns{ width: 87.66666666666667%; }
+  .tweleve.columns{ width: 96%; margin-left: 0%; }
+  .row .columns{ margin-left: 4%; }
+  .row{ 
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+   }
+  .columns:first-child{ margin-left: 0; }
+}
